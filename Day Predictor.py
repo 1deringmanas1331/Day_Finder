@@ -1,3 +1,4 @@
+# Imports datetime library for finding the day
 import datetime
 
 def predict_day_of_week():
@@ -9,7 +10,7 @@ def predict_day_of_week():
             day = int(input("Enter the day (1-31): "))
             input_date = datetime.date(year, month, day)
             
-            #Find the day for the given date
+            # Finds the day for the given date
             day_of_week = input_date.strftime("%A")
             print(f"The day of the week for {input_date} is {day_of_week}.")
             break
