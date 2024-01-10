@@ -1,4 +1,4 @@
-# Imports Datetime library for finding the date of the day
+# Imports Datetime Library for finding the date of the day
 import datetime
 # Define a function to check the day
 def predict_day_of_week():
